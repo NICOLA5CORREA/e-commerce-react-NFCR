@@ -1,0 +1,31 @@
+.filter__category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width:25%;
+    border: 1px solid #ccccccd8;
+    font-size: 18px;
+}
+
+
+.search__btn{
+    display: flex;
+    background: rgba(210, 49, 49, 0.918);
+    position: relative;
+    left: 62%;
+    border: none;
+    height: 25px;
+} 
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5em;
+    justify-items: center;
+}
+
